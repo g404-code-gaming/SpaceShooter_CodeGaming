@@ -14,6 +14,8 @@ On va corser un peu les choses en ajoutant des météores qui vont venir de la d
 
 4. Ajoute une action qui applique une force aléatoire sur les météores pour qu'ils se déplacent vers la gauche.
 
+NB. Si vous ne trouvez pas le code ChooseRandomNumber, veuillez installer cette extension et l'ajouter dans Gdevelop. [Choose.json](https://github.com/user-attachments/files/21298171/Choose.json)
+
 Voici le résultat que tu devrais obtenir :
 
 ![Meteores](images/meteores.png)
@@ -31,6 +33,7 @@ Nous allons donner la possibilité au joueur de récupérer des power-ups qui vo
 4. Enfin, nous allons conditionner l'apparition des power-ups. Quand un météore est détruit avec le "projectile4", change la valeur d'une variable "randomPower" avec une valeur aléatoire entre 0 et 9. Ensuite ajoute une condition qui vérifie si la variable "randomPower" est égale à 0. Si c'est le cas, ajoute une action qui crée un objet "powerUp" à la position du météore détruit et applique une force de -500 sur l'axe X pour qu'il fonce tout droit !
 
 Voici le résultat que tu devrais obtenir :
+[Uploading Choose.json…]()
 
 ![PowerUps](images/powerUps.png)
 
