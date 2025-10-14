@@ -27,15 +27,11 @@ Voici les objets que tu dois positionner dans ta scène :
 
 Super, tu as positionné tous les objets de ta scène. Mais il reste encore quelques réglages à faire.
 
-2. **Création des variables de scène** : Pour ce jeu, nous allons avoir besoin de plusieurs variables de scène. Ces variables vont nous aider à gérer le comportement de nos objets. Clique en haut à droite sur ouvrir les réglages, puis dans Modifier les variables de la scène. Clique sur le bouton "Ajouter une variable" et ajoute les variables suivantes :
-
-**randomPower** : Cette variable est un nombre. Mettons sa valeur à 0 pour le moment. Cette variable va nous permettre de conditionner plus tard les power-up du vaisseau. 🛸
-
-![random](images/randomPower.png)
-
 3. **Création des variables d'objets** :
 
-**Life** : Cette variable de type Nombre est à appliquer à notre ennemi. Cette variable va nous permettre de savoir combien de points de vie il reste à l'ennemi. Règle la valeur de cette variable à 5. 💔
+Pour savoir comment créer des variables, consulte cette partie de cours --> [Variables](https://github.com/g404-code-gaming/GDevelop_Cour/blob/main/Variables.md)
+
+**Life** : Cette variable de type Nombre est à appliquer à notre **ennemi**. Cette variable va nous permettre de savoir combien de points de vie il reste à l'ennemi. Règle la valeur de cette variable comme tu le souhaite. 💔
 
 ![life](images/life.png)
 
