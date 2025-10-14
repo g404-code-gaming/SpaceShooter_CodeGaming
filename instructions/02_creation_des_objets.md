@@ -1,22 +1,31 @@
 # Création des objets du jeu 🎮7
 
-Maintenant que tu as GDevelop 5 prêt et configuré, il est temps de passer à la partie amusante : la création des objets de ton jeu ! Dans notre jeu Space Shooter, nous allons avoir besoin de plusieurs types d'objets : le vaisseau du joueur, les projectiles, les ennemis, les météores et les power-ups. Et devine quoi ? On va utiliser des super assets de "Space Shooter by Pixel Boy" pour tous ces objets. Allez, c'est parti !
+Maintenant que tu as GDevelop 5 prêt et configuré, il est temps de passer à la partie amusante : la création des objets de ton jeu ! Dans notre jeu Space Shooter, nous allons avoir besoin de plusieurs types d'objets : le vaisseau du joueur, les projectiles, les ennemis, les météores et les power-ups. 
+On va utiliser des super assets de "Space Shooter by Pixel Boy" pour tous ces objets. Allez, c'est parti !
 
 ![assets](images/assets.png)
 
-1. **Importation des objets** : Pour importer les objets de "Space Shooter by Pixel Boy", il suffit de les glisser-déposer dans la fenêtre de GDevelop 5. Ils seront automatiquement ajoutés à ton projet. Tu peux ensuite les glisser-déposer dans ta scène pour les positionner. 🖱️
+1. **Importation des objets** :
+  
+Pour importer les objets, suis ce petit cours qui va t'expliquer tout ce dont tu as besoin : --> [Objets]()
 
 Voici les objets que tu dois positionner dans ta scène :
 
-_Space Background_ : Cet objet est un fond d'écran qui va servir de décor à notre jeu. il faut qu'il couvre toute la scène. 🌌
+  - **Spaceship** : le vaisseau du joueur, qui va se déplacer et tirer des projectiles.
 
-_SpaceShip_ : Glisse-dépose l'objet "Space Ship" dans ta scène. Tu peux le positionner où tu veux, mais pour l'instant, place-le a gauche. Si tu clique sur l'objet, tu verras dans le paneau a gauche qu'il a une propriété "Angle" qui est réglée à 0. Change cette valeur pour la mettre à 90. Cela va faire en sorte que le vaisseau soit orienté vers la droite. 🚀
+  - **Background** : un fond d'écran, pour rendre la scène plus vivante *(astuce, cherche Space)*
 
-_Ennemi_ : Glisse-dépose l'objet "Squid Space Enemy" dans ta scène. Tu peux le positionner où tu veux, mais pour l'instant, place-le a droite. 👾
+  - **Meteor** : des météores ou astéroïdes qui vont arriver vers le joueur à toute vitesse et le détruire en cas d'impact.
+
+  - **Ennemy** : des aliens, vaisseaux ou tout autre forme de menace qui vont se diriger vers notre vaisseau pour le détruire.
+
+  - **Projectiles** : le vaisseau du joueur va tirer des projectiles pour attaquer les différentes menances (astuce : cherche Ball ou Laser pour trouver des projectiles futuristes)
+
+  - **Power-Up** : Un objet qui va renforcer le joueur lorsqu'il le touche. 
 
 ![positionement](images/positionement.png)
 
-Super, tu as positionné tous les objets de ta scène. Mais il reste encore quelques réglages à faire. Allez, on y retourne !
+Super, tu as positionné tous les objets de ta scène. Mais il reste encore quelques réglages à faire.
 
 2. **Création des variables de scène** : Pour ce jeu, nous allons avoir besoin de plusieurs variables de scène. Ces variables vont nous aider à gérer le comportement de nos objets. Clique en haut à droite sur ouvrir les réglages, puis dans Modifier les variables de la scène. Clique sur le bouton "Ajouter une variable" et ajoute les variables suivantes :
 
