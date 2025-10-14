@@ -62,6 +62,6 @@ Une dernière chose pour clore ce chapitre. Nous allons programmer le déplaceme
 
 Maintenant, on va simplement ajouter une action de déplacement vers le vaisseau. Ajoute une action qui déplace l'ennemi vers le vaisseau avec une vitesse de 100.
 
-![deplacement-ennemi](images/ennemimove.JPG)
+![deplacement-ennemi](https://github.com/g404-code-gaming/SpaceShooter_CodeGaming/blob/main/instructions/images/3_ennemimove.JPG)
 
 Voilà, la base est posée. Tu peux maintenant jouer à ton jeu et voir ce que ça donne. Mais il reste encore beaucoup de choses à faire. Alors, prêt à continuer ? Allez, c'est parti ! Suis ce lien pour passer à la suite : [Ajout de la progression et de la difficulté](04_progression_difficulte.md) 🎉
