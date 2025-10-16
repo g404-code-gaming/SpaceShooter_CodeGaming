@@ -1,6 +1,6 @@
 # Boss fin de niveau 🐙🎮
 
-## Apprition du boss
+## Apparition du boss
 
 Pour faire apparaître le boss, nous allons surveiller la variable totalScore. Si elle dépasse 600, le boss fera son entrée. N'oublie pas de l'agrandir pour qu'il soit plus impressionnant ! 📈
 
