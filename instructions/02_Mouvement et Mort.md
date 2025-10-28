@@ -16,9 +16,11 @@ Si ton vaisseau 'tourne' quand tu te déplace, c'est qu'il faut **décocher la c
 
 ### Mise en Place
 
-Pour permettre au vaisseau du joueur de tirer des balles, nous allons devoir ajouter un autre comportement. Clique sur le bouton "Ajouter un comportement" et va sur l'onglet "Rechercher de nouveaux comportements". Dans la barre de recherche, choisis fire bullets et importe le dans ton projet.
+Pour permettre au vaisseau du joueur de tirer des balles, nous allons devoir ajouter le comportement **Fire Bullet** (ou **Tirer des balles**).
 
 ![comportement-fire-bullets](images/comportement-fire-bullets.png)
+
+On souhaite que notre vaisseau puisse tirer avec deux canons en même temps.
 
 Pour tirer depuis les deux canons du vaisseau : 
  - Ouvre les paramètres de ton vaisseau (double-clique dessus)
@@ -31,17 +33,24 @@ Voilà, le vaisseau peut se déplacer et est prêt à tirer des projectiles.
 
 ### Programmation
 
-Dans les évènements de la scène. Nous allons ajouter une condition qui va permettre au vaisseau de tirer des projectiles.
+Dans les [évènements](https://github.com/g404-code-gaming/GDevelop_Cour/blob/main/%C3%A9v%C3%A8nements.md) de la scène. Nous allons ajouter une condition qui va permettre au vaisseau de tirer des projectiles.
 
-Clique sur le bouton "Ajouter une condition", va dans l'onglet "autres conditions" et cherche "Touche pressée". Dans la liste déroulante à droite, choisis "Space". Cela va ajouter une condition qui va vérifier si la touche espace est appuyée.
+Voici le résultat que vous devez obtenir (des explications sont fournies plus bas)
+
+Ajoutez donc un nouvel évènement. 
+
+Dans cet évènement, ajouter une condition : *Quand la touche Espace est pressée*
+Pour trouver cette condition, chercher "Touche pressée", et choisissez la touche "Espace".
+
+Pour l'action de tir, voici une aide pour remplir les paramètres : 
+
+![resultat-programmation-vaisseau](images/2_tir.JPG)
 
 Maintenant, ajoutons une action qui va permettre au vaisseau de tirer. Clique sur le bouton "Ajouter une action" et choisis "Fire bullets in the direction of a given angle". Et configure le comme sur cette image :
 
 ![fire-bullet](images/fire-bullet.png)
 
 Fais la même chose pour le deuxième canon et changeons l'angle du projectile pour que l'image soit orientée vers la droite.
-
-![resultat-programmation-vaisseau](images/resultat-programmation-vaisseau.png)
 
 Super, le vaisseau peut maintenant tirer des projectiles. Mais il ne peut pas encore détruire les ennemis. Allons programmer le comportement des ennemis.
 
