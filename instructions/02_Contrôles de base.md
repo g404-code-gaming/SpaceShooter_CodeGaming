@@ -37,20 +37,16 @@ Dans les [évènements](https://github.com/g404-code-gaming/GDevelop_Cour/blob/m
 
 Voici le résultat que vous devez obtenir (des explications sont fournies plus bas)
 
+![resultat-programmation-vaisseau](images/2_tir.JPG)
+
 Ajoutez donc un nouvel évènement. 
 
 Dans cet évènement, ajouter une condition : *Quand la touche Espace est pressée*
 Pour trouver cette condition, chercher "Touche pressée", et choisissez la touche "Espace".
 
-Pour l'action de tir, voici une aide pour remplir les paramètres : 
-
-![resultat-programmation-vaisseau](images/2_tir.JPG)
-
-Maintenant, ajoutons une action qui va permettre au vaisseau de tirer. Clique sur le bouton "Ajouter une action" et choisis "Fire bullets in the direction of a given angle". Et configure le comme sur cette image :
+Pour l'action de tir avec un canon, voici une aide pour remplir les paramètres : 
 
 ![fire-bullet](images/fire-bullet.png)
-
-Fais la même chose pour le deuxième canon et changeons l'angle du projectile pour que l'image soit orientée vers la droite.
 
 Super, le vaisseau peut maintenant tirer des projectiles. Mais il ne peut pas encore détruire les ennemis. Allons programmer le comportement des ennemis.
 
@@ -73,6 +69,9 @@ Maintenant, nous allons programmer les collisions entre les projectiles et les e
 ![projectile-on-enemy](images/projectile-on-enemy.png)
 
 Super, les ennemis peuvent maintenant être détruits. Mais ils ne peuvent pas encore détruire le vaisseau. Ajoutons ce comportement au vaisseau.
+
+
+__________
 
 Il suffit d'ajouter une condition qui vérifie si le vaisseau est en collision avec un ennemi. Si c'est le cas, ajoute une action qui supprime le vaisseau.
 
