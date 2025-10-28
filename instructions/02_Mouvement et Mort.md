@@ -67,12 +67,4 @@ Super, les ennemis peuvent maintenant être détruits. Mais ils ne peuvent pas e
 
 Il suffit d'ajouter une condition qui vérifie si le vaisseau est en collision avec un ennemi. Si c'est le cas, ajoute une action qui supprime le vaisseau.
 
-## Déplacement des ennemis
-
-Une dernière chose pour clore ce chapitre. Nous allons programmer le déplacement des ennemis. Ajoute un comportement "Recherche de chemin" aux ennemis.
-
-Maintenant, on va simplement ajouter une action de déplacement vers le vaisseau. Ajoute une action qui déplace l'ennemi vers le vaisseau avec une vitesse de 100.
-
-![deplacement-ennemi](https://github.com/g404-code-gaming/SpaceShooter_CodeGaming/blob/main/instructions/images/3_ennemimove.JPG)
-
 Voilà, la base est posée. Tu peux maintenant jouer à ton jeu et voir ce que ça donne. Mais il reste encore beaucoup de choses à faire. Alors, prêt à continuer ? Allez, c'est parti ! Suis ce lien pour passer à la suite : [Ajout de la progression et de la difficulté](04_progression_difficulte.md) 🎉
