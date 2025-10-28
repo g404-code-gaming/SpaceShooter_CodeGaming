@@ -27,16 +27,35 @@ Voici les objets que tu dois positionner dans ta scène :
 
 Super, tu as positionné tous les objets de ta scène. Mais il reste encore quelques réglages à faire.
 
-3. **Création des variables d'objets** :
+2. **Paramètre des objets** :
+
+### Groupe d'objet 
+
+Pour simplifier le code, et éviter de répéter plusieurs fois la même chose, nous allons réunir le météore et l'ennemi dans un même **groupe d'objet**. 
+
+Nommez ce groupe **ennemis** et ajoutez-y vos objets ennemis.
+
+![life](images/1_groupe_ennemi.JPG)
+
+### Variables
+
+Il faut maintenant ajouter deux variables aux **Ennemis** : 
+
+  - **PV** : Cette variable va nous permettre de savoir combien de points de vie il reste à l'ennemi. Règle la valeur de cette variable comme tu le souhaite. 💔
+  - **Score** : Le nombre de point que le joueur gagne en détruisant l'ennemi. 
+
+    > Une fois que la variable est faite pour le groupe, il faut aller assigner à chaque objet une valeur propre (exemple : 5 PV et Score pour l'ennemi, et 1 PV et Score pour le météore)
 
 Pour savoir comment créer des variables, consulte cette partie de cours --> [Variables](https://github.com/g404-code-gaming/GDevelop_Cour/blob/main/Variables.md)
 
-**Life** : Cette variable de type Nombre est à appliquer à notre **ennemi**. Cette variable va nous permettre de savoir combien de points de vie il reste à l'ennemi. Règle la valeur de cette variable comme tu le souhaite. 💔
+![life](images/1_variables.JPG)
 
-![life](images/life.png)
-
-**powerUp** : Cette variable de type booléen est à appliquer à notre _Space Ship_. Cette variable va nous permettre plus tard de savoir si notre vaisseau a son power up activé ou non. 🛸
+Ajoute ensuite une variable **PowerUp** pour ton **Vaisseau**. 
 
 ![power up](images/powerUp.png)
 
-Et voilà, tu as de quoi commencer à jouer ! N'est-ce pas génial de voir ton jeu prendre forme ? Mais ne t'arrête pas là, il reste encore beaucoup à faire. Alors, prêt à programmer le comportement de ces objets ? Allez, c'est parti ! Direction [la prochaine partie](03_programmation_comportements.md) ! 🎉
+Cette variable de type booléen est à appliquer à notre _Space Ship_. Cette variable va nous permettre plus tard de savoir si notre vaisseau a son power up activé ou non. 🛸
+
+Et voilà, tu as de quoi commencer ! 
+Mais ne t'arrête pas là, il reste encore beaucoup à faire. 
+Allez, c'est parti ! Direction [la prochaine partie](03_programmation_comportements.md) ! 🎉
