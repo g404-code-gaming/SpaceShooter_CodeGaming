@@ -8,19 +8,30 @@ Clique sur le vaisseau dans la scène pour le sélectionner. Une fenêtre s'ouvr
 
 ![comportement-mouvement](images/comportement-mouvement.png)
 
-Super, maintenant le vaisseau peut se déplacer. Mais il ne peut pas tirer. Pour cela, nous allons devoir ajouter un autre comportement. Clique sur le bouton "Ajouter un comportement" et va sur l'onglet "Rechercher de nouveaux comportements". Dans la barre de recherche, choisis fire bullets et importe le dans ton projet.
+Super, maintenant le vaisseau peut se déplacer. 
+
+Si ton vaisseau 'tourne' quand tu te déplace, c'est qu'il faut **décocher la case "tourner l'objet"** dans le comportement.
+
+## Tirer des balles
+
+### Mise en Place
+
+Pour permettre au vaisseau du joueur de tirer des balles, nous allons devoir ajouter un autre comportement. Clique sur le bouton "Ajouter un comportement" et va sur l'onglet "Rechercher de nouveaux comportements". Dans la barre de recherche, choisis fire bullets et importe le dans ton projet.
 
 ![comportement-fire-bullets](images/comportement-fire-bullets.png)
 
-Pour tirer depuis les deux canons du vaisseau, il faut ajouter des "points" sur l'image du vaisseau. Double-clique sur l'image du vaisseau dans la scène pour l'ouvrir dans l'éditeur d'images. Clique sur le bouton "Modifier les points" et ajoute deux points sur les canons du vaisseau. Nomme ces points "canon1" et "canon2".
+Pour tirer depuis les deux canons du vaisseau : 
+ - Ouvre les paramètres de ton vaisseau (double-clique dessus)
+ - Va dans **Modifier les Points**
+ - Ajoute deux points, que tu positionne où tu le souhaite, et nomme "Canon1" et "Canon2"
 
 ![points](images/points.png)
 
 Voilà, le vaisseau peut se déplacer et est prêt à tirer des projectiles.
 
-## Programmation des projectiles
+### Programmation
 
-Allons dans l'onglet des événements de la scène. Nous allons ajouter une condition qui va permettre au vaisseau de tirer des projectiles.
+Dans les évènements de la scène. Nous allons ajouter une condition qui va permettre au vaisseau de tirer des projectiles.
 
 Clique sur le bouton "Ajouter une condition", va dans l'onglet "autres conditions" et cherche "Touche pressée". Dans la liste déroulante à droite, choisis "Space". Cela va ajouter une condition qui va vérifier si la touche espace est appuyée.
 
