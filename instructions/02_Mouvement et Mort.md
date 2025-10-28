@@ -25,7 +25,7 @@ Pour tirer depuis les deux canons du vaisseau :
  - Va dans **Modifier les Points**
  - Ajoute deux points, que tu positionne où tu le souhaite, et nomme "Canon1" et "Canon2"
 
-![points](images/points.png)
+![points](images/2_point.JPG)
 
 Voilà, le vaisseau peut se déplacer et est prêt à tirer des projectiles.
 
