@@ -11,12 +11,11 @@ Alors, prêt à commencer cette aventure ? Attrape ton clavier, prépare-toi à 
 
 ## Sommaire 📚
 
-1. [Installation et configuration de GDevelop 5](instructions/01_preparation.md)
-2. [Création du projet](instructions/02_creation_des_objets.md)
-3. [Programmation des comportements](instructions/03_programmation_comportements.md)
-4. [Ajout de la progression et de la difficulté](instructions/04_progression_difficulte.md)
-5. [Polissage et finalisation](instructions/05_polissage_finalisation.md)
-6. [Publication du jeu](instructions/06_publication.md)
+1. [Création du projet](instructions/02_creation_des_objets.md)
+2. [Programmation des comportements](instructions/03_programmation_comportements.md)
+3. [Ajout de la progression et de la difficulté](instructions/04_progression_difficulte.md)
+4. [Polissage et finalisation](instructions/05_polissage_finalisation.md)
+5. [Publication du jeu](instructions/06_publication.md)
 
 ## Résultat final 🏆
 
