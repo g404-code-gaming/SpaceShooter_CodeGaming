@@ -31,28 +31,36 @@ Voilà, tu as fini cette partie ! N'hésite pas à tester ton jeu pour voir si t
 
 ---
 
+## Bordures de l'écran 
+
+Pour le moment, notre vaisseau peut sortir de l'écran, ce n'est pas prévus pour le jeu. 
+
+Nous allons donc ajouter des murs qui bloquent les bords de l'écran pour 'coincer' le vaisseau dans la partie ! 
+
+Ajoutez un objet **Mur** (qui peut être n'importe quel carré) et placez-les de manières à ce qu'ils soient en dehors de la caméra. 
+
+![power up](images/4_murs_image.JPG)
+
+Ajoutez ensuite l'évènement pour empécher le vaisseau du joueur de traverser les murs : il s'agit d'une action "Séparer" qui sépare deux objets. 
+
+![power up](images/4_murs_code.JPG)
+
+Avec cette nouvelle modification, votre vaisseau est désormais correctement enfermé dans l'écran et ne pourra plus se perdre au delà de la vue de la caméra.
+
 # Game Over 🎮
 
-Je te propose de regrouper certains éléments dans des groupes d'objets comme ceci par exemple :
+Nous allons désormais programmer la collision avec les ennemis et la mort du personnage. 
 
-![Groupes d'objets](images/groupes-objets.png)
 
-Nous allons commencer par ajouter un écran de Game Over. Pour cela, nous allons créer un groupe qui va contenir tous les événements qui gèrent le Game Over. Nous allons ensuite ajouter une condition qui vérifie si le vaisseau du joueur est en collision avec un ennemi ou un météore. Si c'est le cas, nous allons afficher un texte "Game Over".
 
-Ajoute des murs autour de la scène. Ajoute une condition qui vérifie si le vaisseau du joueur est en collision avec un mur. Si c'est le cas, ajoute une action qui supprime le vaisseau du joueur.
+---
 
-Ajoute dans la scène un objet "Texte" et positionne-le au centre de la scène et mets-le avec un index -1. Ajoute une condition qui vérifie si le vaisseau du joueur est en collision avec un ennemi ou un hazard (le groupe que nous venons de faire). Si c'est le cas, ajoute une action qui affiche le texte "Game Over" et qui met le texte index 2.
+Bravo ! Tu as presque fini le projet ! 
 
-Au bout de 2 secondes, ajoute une action qui change la scène pour la scène "principale", ce qui relancera le jeu.
-
-Voici le résultat que tu devrais obtenir :
-
-![Game Over](images/game-over.png)
-
-Bravo ! Tu as fini ce projet ! Du moins la première partie car il reste tant de choses à faire pour rendre ce jeu plus intéressant. Je te laisse explorer par toi-même pour ajouter des fonctionnalités comme un score, des vies, des niveaux, des boss, etc...
+Je te laisse explorer par toi-même pour ajouter des fonctionnalités comme un score, des vies, des niveaux, des boss, etc...
 Il faut aussi des sons et de la musique pour rendre le jeu plus vivant. Tu peux utiliser des sons et de la musique de ce site : https://freesound.org/
 Et enfin quelques effets visuels comme des explosions, des particules, etc...
 
-Tu peux essayer dès maintenant d'ajouter ces fonctionnalités à ton jeu. Mais nous allons avant tout ça voir comment publier ton jeu pour que tu puisses le partager avec tes amis ! C'est parti !
+Tu peux essayer dès maintenant d'ajouter ces fonctionnalités à ton jeu.
 
-La suite ici : [Ajout de score](06_score.md) 🎉
+La suite ici : [Ajout de score](05_score.md) 🎉
