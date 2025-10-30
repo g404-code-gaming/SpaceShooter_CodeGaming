@@ -9,13 +9,9 @@ Alors, qu'est-ce que tu vas apprendre avec ce projet ? Un tas de choses ! Tu vas
 
 Alors, prêt à commencer cette aventure ? Attrape ton clavier, prépare-toi à coder et allons-y ! 💻
 
-## Sommaire 📚
+## Partie 1 📚
 
-1. [Création du projet](instructions/02_creation_des_objets.md)
-2. [Programmation des comportements](instructions/03_programmation_comportements.md)
-3. [Ajout de la progression et de la difficulté](instructions/04_progression_difficulte.md)
-4. [Polissage et finalisation](instructions/05_polissage_finalisation.md)
-5. [Publication du jeu](instructions/06_publication.md)
+[Création du jeu](https://github.com/g404-code-gaming/SpaceShooter_CodeGaming/blob/main/instructions/01_Creation_de_base.md)
 
 ## Résultat final 🏆
 
