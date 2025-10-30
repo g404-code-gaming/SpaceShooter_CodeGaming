@@ -58,4 +58,4 @@ Cette variable de type booléen est à appliquer à notre _Space Ship_. Cette va
 
 Et voilà, tu as de quoi commencer ! 
 Mais ne t'arrête pas là, il reste encore beaucoup à faire. 
-Allez, c'est parti ! Direction [la prochaine partie](03_programmation_comportements.md) ! 🎉
+Allez, c'est parti ! Direction [la prochaine partie](02_Contr%C3%B4les%20de%20base.md) ! 🎉
