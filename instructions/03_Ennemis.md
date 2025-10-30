@@ -1,8 +1,13 @@
-# Ajout des météores et des power-ups 🌠
+# 3 Programmation des dangers
+
+Dans le jeu, il y aura deux types principaux de danger : 
+
+   - Les météores, qui avancent en ligne droite.
+   - Les vaisseaux ennemis (ou aliens), qui se dirigent vers le joueur.
 
 ## Déplacement des ennemis
 
-Nous allons programmer le déplacement des ennemis. Ajoute un comportement "Recherche de chemin" aux ennemis.
+Nous allons programmer le déplacement des ennemis.
 
 Maintenant, on va simplement ajouter une action de déplacement vers le vaisseau. Ajoute une action qui déplace l'ennemi vers le vaisseau avec une vitesse de 100.
 
