@@ -7,7 +7,11 @@ Dans le jeu, il y aura deux types principaux de danger :
 
 Pour réduire la quantité de code nécessaire, nous allons réunir tout les éléments dangereux dans un groupe : 
 
-![groupe ennemi](images/3_groupeennemi.JPG) ![groupe ennemi](images/3_groupeennemi2.JPG)
+![groupe ennemi](images/3_groupeennemi.JPG) 
+
+Dans le groupe, choisissez les objets que vous voulez rendre 'dangereux' : ceux qui vont détruire le vaisseau du joueur au contact et être détruit par les tirs du joueur.
+
+![groupe ennemi](images/3_groupeennemi2.JPG)
 
 ## Programmation des ennemis 👾
 
