@@ -65,7 +65,7 @@ Tester votre programme pour voir si les météores apparaissent correctement et 
 Une fois que les météores sont terminés, vous pouvez **refaire le même programme pour les ennemis** : ces derniers apparaissent de la même manière. 
 
 - **Initialisez** un Chronomètre "ennemis" au lancement de la scène.
-- 
+  
 - **Ajouter** un évènement qui fait apparaîter les ennemis lorsque le chronomètre atteint une certaine valeur (résultat attendue ci-dessous).
 
 ![image meteor](images/3_ennemiapparition.JPG)
