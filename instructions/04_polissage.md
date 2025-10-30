@@ -6,11 +6,21 @@ Nous allons donner la possibilité au joueur de récupérer des power-ups qui vo
 
 1. Ajoute une condition qui vérifie si le vaisseau du joueur est en collision avec un power-up. Si c'est le cas, ajoute une action qui supprime le power-up et qui met la variable "powerUp" du vaisseau du joueur à true. Au bout de 10 secondes, ajoute une action qui met la variable "powerUp" du vaisseau du joueur à false.
 
-![power up](https://github.com/g404-code-gaming/SpaceShooter_CodeGaming/blob/main/instructions/images/4_powerup_1.JPG)
+![power up](images/4_powerup_1.JPG)
 
-3. Il va falloir modifier le comportement du vaisseau du joueur pour qu'il tire des projectiles plus puissants quand il a un power-up. Ajoute une condition qui vérifie si la variable "powerUp" du vaisseau du joueur est true. Si c'est le cas, ajoute une action qui tire des projectiles différents.
+3. Il va falloir modifier le comportement du vaisseau du joueur pour qu'il tire des projectiles plus puissants quand il a un power-up.
 
-![power up](https://github.com/g404-code-gaming/SpaceShooter_CodeGaming/blob/main/instructions/images/4_powerup_2.JPG)
+Avant, le programme de tire ressemblait à ça : 
+
+![initial](images/)
+
+Modifie-le pour qu'il inclue la condition de la variable 'power-Up'. 
+
+![mise a jour sans powerup](images/)
+
+Ajoute maintenant un nouveau sous-évènement pour que le vaisseau tire de nouveaux projectiles si la variable Power-Up est vraie. 
+
+![power up](images/4_powerup_2.JPG)
 
 Les projectiles améliorés doivent être programmés de la même manière que les projectiles normaux (voir chapitre précédent). 
 
