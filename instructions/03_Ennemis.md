@@ -37,7 +37,7 @@ Nous allons programmer le déplacement des ennemis.
 
 Maintenant, on va simplement ajouter une action de déplacement vers le vaisseau. Ajoute une action qui déplace l'ennemi vers le vaisseau avec une vitesse de ton choix.
 
-![deplacement-ennemi](https://github.com/g404-code-gaming/SpaceShooter_CodeGaming/blob/main/instructions/images/3_ennemimove.JPG)
+![deplacement-ennemi](images/3_ennemimove.JPG)
 
 ## Apparition des météores
 
@@ -47,7 +47,7 @@ En effet, on souhaite que les Météores apparaissent tout le temps à intervall
 
 Commencez par créer un évènement qui initie le chronomètre au lancement de la scène
 
-![image 0](https://github.com/g404-code-gaming/SpaceShooter_CodeGaming/blob/main/instructions/images/4_meteor_1.JPG)
+![image lance meteore](images/4_meteor_1.JPG)
 
 Ensuite, il faut programmer l'apparition des Météores : 
 
@@ -56,7 +56,24 @@ Ensuite, il faut programmer l'apparition des Météores :
 (3) Le météore est ensuite déplacée vers la gauche à l'aide d'une force. 
 (4) Pour être certain que le météore ait la bonne taille, ont l'aggrandie. 
 
-![image 0](https://github.com/g404-code-gaming/SpaceShooter_CodeGaming/blob/main/instructions/images/4_meteor_2.JPG)
+![image meteor](images/4_meteor_2.JPG)
 
+Tester votre programme pour voir si les météores apparaissent correctement et se déplacent vers la gauche. 
+
+---
+
+Une fois que les météores sont terminés, vous pouvez **refaire le même programme pour les ennemis** : ces derniers apparaissent de la même manière. 
+
+- **Initialisez** un Chronomètre "ennemis" au lancement de la scène.
+- 
+- **Ajouter** un évènement qui fait apparaîter les ennemis lorsque le chronomètre atteint une certaine valeur (résultat attendue ci-dessous).
+
+![image meteor](images/3_ennemiapparition.JPG)
+
+---
+
+Avec tout ça, nous avons des ennemis qui se déplacent et peuvent être détruit par les attaques du joueur. 
+
+Il nous faut encore ajouter la mort du vaisseau du joueur et d'autres détails importants pour rendre le jeu plus amusant :
 
 C'est partis pour la suite : [Polissage et finalisation](04_polissage.md) 🎉
