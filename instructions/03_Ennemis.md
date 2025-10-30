@@ -33,4 +33,4 @@ Ensuite, il faut programmer l'apparition des Météores :
 ![image 0](https://github.com/g404-code-gaming/SpaceShooter_CodeGaming/blob/main/instructions/images/4_meteor_2.JPG)
 
 
-La fin ici : [Polissage et finalisation](04_polissage.md) 🎉
+C'est partis pour la suite : [Polissage et finalisation](04_polissage.md) 🎉
