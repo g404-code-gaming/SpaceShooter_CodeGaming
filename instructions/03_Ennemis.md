@@ -2,13 +2,13 @@
 
 ## Déplacement des ennemis
 
-Une dernière chose pour clore ce chapitre. Nous allons programmer le déplacement des ennemis. Ajoute un comportement "Recherche de chemin" aux ennemis.
+Nous allons programmer le déplacement des ennemis. Ajoute un comportement "Recherche de chemin" aux ennemis.
 
 Maintenant, on va simplement ajouter une action de déplacement vers le vaisseau. Ajoute une action qui déplace l'ennemi vers le vaisseau avec une vitesse de 100.
 
 ![deplacement-ennemi](https://github.com/g404-code-gaming/SpaceShooter_CodeGaming/blob/main/instructions/images/3_ennemimove.JPG)
 
-## Ajout des météores
+## Apparition des météores
 
 On va corser un peu les choses en ajoutant des météores qui vont venir de la droite de l'écran. Nous allons utiliser un outil plus complexe qu'une simple condition cette fois. Nous allons utiliser les **Chronomètres** ! 
 
