@@ -47,4 +47,4 @@ Je te laisse faire ça tout seul ! 🚀
 
 ## publication du jeu
 
-La suite ici : [Publication du jeu](08_publication.md) 🎉
+La suite ici : [Publication du jeu](07_publication.md) 🎉
