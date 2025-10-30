@@ -12,11 +12,11 @@ Nous allons donner la possibilité au joueur de récupérer des power-ups qui vo
 
 Avant, le programme de tire ressemblait à ça : 
 
-![initial](images/)
+![sans power up](images/2_tir.JPG)
 
-Modifie-le pour qu'il inclue la condition de la variable 'power-Up'. 
+Modifie-le pour qu'il inclue la condition de la variable 'power-Up' dans un sous-évènement : 
 
-![mise a jour sans powerup](images/)
+![mise a jour sans powerup](images/4_power_up_maj_1.JPG)
 
 Ajoute maintenant un nouveau sous-évènement pour que le vaisseau tire de nouveaux projectiles si la variable Power-Up est vraie. 
 
