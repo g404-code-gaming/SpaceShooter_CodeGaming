@@ -5,6 +5,28 @@ Dans le jeu, il y aura deux types principaux de danger :
    - Les météores, qui avancent en ligne droite.
    - Les vaisseaux ennemis (ou aliens), qui se dirigent vers le joueur.
 
+Pour réduire la quantité de code nécessaire, nous allons réunir tout les éléments dangereux dans un groupe : 
+
+![groupe ennemi](images/3_groupeennemi.JPG) ![groupe ennemi](images/3_groupeennemi2.JPG)
+
+## Programmation des ennemis 👾
+
+Pour l'instant, nous allons juste dire que si un ennemi a ses points de vie à zéro, il est supprimé.
+
+Ajoute une condition qui vérifie si la variable "PV" de l'ennemi est inférieure ou égale à 0. Si c'est le cas, ajoute une action qui supprime l'ennemi.
+
+![suppr-enemy](images/3_ennemimort.JPG)
+
+## Programmation des collisions
+
+Maintenant, nous allons programmer les collisions entre les projectiles et les ennemis. Ajoute une condition qui vérifie si un projectile est en collision avec un ennemi. Si c'est le cas, ajoute une action qui soustrait 1 à la variable "PV" de l'ennemi et supprime le projectile.
+
+![projectile-on-enemy](images/3_ennemicoll.JPG)
+
+Super, les ennemis peuvent maintenant être détruits. Mais ils ne peuvent pas encore détruire le vaisseau. Ajoutons ce comportement au vaisseau.
+
+---
+
 ## Déplacement des ennemis
 
 Nous allons programmer le déplacement des ennemis.
