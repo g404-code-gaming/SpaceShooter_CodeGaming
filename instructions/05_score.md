@@ -1,18 +1,32 @@
 # Ajout de score et de son 🎵🔢
 
+![variable globale](images/5_score_0.JPG)
+
 ## Ajout de score 🔢
 
 Comme tout bon space shooter qui se respecte, il nous faut un compteur de score ! 🚀
 
-Pour cela, nous allons utiliser une variable globale que nous allons nommer "totalScore". Nous l'incrémenterons chaque fois que le vaisseau du joueur détruit un ennemi ou un météore. 🌠
+Pour cela, nous allons utiliser une variable globale que nous allons nommer "Score". 
 
-![variable globale](images/totalScore.png)
+![variable globale](images/5_score_1.JPG)
+![variable globale](images/5_score_2.JPG)
 
-![incrémentation du score](images/incrementationScore.png)
+Nous l'incrémenterons chaque fois que le vaisseau du joueur détruit un ennemi ou un météore. 🌠
 
-Nous allons ensuite afficher cette variable dans un objet texte dont le contenu initial sera "0". Nous ajouterons une action qui mettra à jour le contenu de cet objet texte avec la valeur de la variable "totalScore". 📝
+![variable globale](images/5_score_3.JPG)
 
-![affichage du score](images/affichageScore.png)
+Pour que le texte sur la scène affiche correctement la valeur de la variable, il faut créer un nouvel évènement : 
+
+![variable globale](images/5_score_4.JPG)
+
+Le Joueur gagne des points lorsqu'il détruit des ennemis, c'est-à-dire des aliens/vaisseaux ou des météores : Modifiez le programme pour qu'il utilise la variable Score des ennemis. 
+
+![variable globale](images/5_score_5.JPG)
+
+Les variables globales ont une caractéristique : elles conservent leur valeur même lorsqu'on change de scène. Cela signifie que, si le joueur perd la partie et relance la scène, son score reste le même. 
+Pour éviter cela, on remet le score à 0 en cas de mort du personnage : 
+
+![variable globale](images/5_score_6.JPG)
 
 ## Ajout de son 🎵
 
