@@ -51,15 +51,20 @@ Avec cette nouvelle modification, votre vaisseau est désormais correctement enf
 
 Nous allons désormais programmer la collision avec les ennemis et la mort du personnage. 
 
+C'est plutôt simple, en fait ! Il suffit de **supprimer** le vaisseau du joueur en cas de **collision** avec un Ennemi, puis de **relancer la scène** avec l'action "Changer la scène".
 
+![mort](images/4_mort.JPG)
+
+Avce cet ajout, ton personnage est désormais détruit par les ennemis, et le jeu se relance tout seul.
 
 ---
 
 Bravo ! Tu as presque fini le projet ! 
 
+Enfin... non ! 
+Il reste encore beaucoup de chose à faire pour que le jeu soit complet, mais tu as une bonne base pour créer des jeu GDevelops. 
+
 Je te laisse explorer par toi-même pour ajouter des fonctionnalités comme un score, des vies, des niveaux, des boss, etc...
-Il faut aussi des sons et de la musique pour rendre le jeu plus vivant. Tu peux utiliser des sons et de la musique de ce site : https://freesound.org/
-Et enfin quelques effets visuels comme des explosions, des particules, etc...
 
 Tu peux essayer dès maintenant d'ajouter ces fonctionnalités à ton jeu.
 
