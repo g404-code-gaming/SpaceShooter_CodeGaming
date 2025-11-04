@@ -11,7 +11,7 @@ N'oubliez pas de l'ajouter au groupe **Ennemis** pour qu'il subisse des dégâts
 Le Boss apparait lorsque la valeur de score du joueur atteint une certaine valeur. 
 Après son apparition, il avance quelques secondes, puis entame un déplaçant de combat en alternant une montée et une descente. 
 
-![apparition du boss](images/6_boss.mp4)
+![apparition du boss](images/6_boss_move.mp4)
 
 Ajoutez le programme pour que le Boss apparaisse : 
 Il vous faudra ajuster les coordonnées pour qu'il apparaisse exactement là où vous le souhaitez et ce déplace ni trop vite, ni trop lentement. 
@@ -26,7 +26,7 @@ Pour qu'il puisse réaliser facilement un tel mouvement, nous allons faire 'rebo
 
 Créez les objets **Box_collision_boss_haut** et **Box_collision_boss_bas** et placez-les sur la scène pour qu'ils se trouvent en haut et en bas de la position du Boss.
 
-![apparition du boss](images/6_boss_0.JPG)
+![apparition du boss](images/6_boss_5.JPG)
 
 Dans le programme, ajoutez les évènements de déplacement du Boss :
 
