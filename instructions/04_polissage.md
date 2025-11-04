@@ -4,11 +4,11 @@
 
 Nous allons donner la possibilité au joueur de récupérer des power-ups qui vont lui donner des bonus. Nous allons utiliser la variable "powerUp" du vaisseau.
 
-### 1. Ajoute une condition qui vérifie si le vaisseau du joueur est en collision avec un power-up. Si c'est le cas, ajoute une action qui supprime le power-up et qui met la variable "powerUp" du vaisseau du joueur à true. Au bout de 10 secondes, ajoute une action qui met la variable "powerUp" du vaisseau du joueur à false.
+ 1. Ajoute une condition qui vérifie si le vaisseau du joueur est en collision avec un power-up. Si c'est le cas, ajoute une action qui supprime le power-up et qui met la variable "powerUp" du vaisseau du joueur à true. Au bout de 10 secondes, ajoute une action qui met la variable "powerUp" du vaisseau du joueur à false.
 
 ![power up](images/4_powerup_1.JPG)
 
-### 3. Il va falloir modifier le comportement du vaisseau du joueur pour qu'il tire des projectiles plus puissants quand il a un power-up.
+ 3. Il va falloir modifier le comportement du vaisseau du joueur pour qu'il tire des projectiles plus puissants quand il a un power-up.
 
 Avant, le programme de tire ressemblait à ça : 
 
@@ -24,7 +24,7 @@ Ajoute maintenant un nouveau sous-évènement pour que le vaisseau tire de nouve
 
 Les projectiles améliorés doivent être programmés de la même manière que les projectiles normaux (voir chapitre précédent). 
 
-### 4. Enfin, nous allons conditionner l'apparition des power-ups.
+ 4. Enfin, nous allons conditionner l'apparition des power-ups.
    Ils apparaissent de la même manière que les météores : reproduire le code des météores, mais appliqué aux Power-Up. 
 
 Voilà, tu as fini cette partie ! N'hésite pas à tester ton jeu pour voir si tout fonctionne correctement. Si tu as des erreurs, n'hésite pas à comparer ton code avec celui de la solution. Tu peux ajouter un power-up dans la scène pour le prendre immédiatement pendant tes tests et vérifier que tout fonctionne correctement.
