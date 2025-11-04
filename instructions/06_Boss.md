@@ -16,7 +16,7 @@ Après son apparition, il avance quelques secondes, puis entame un déplaçant d
 Ajoutez le programme pour que le Boss apparaisse : 
 Il vous faudra ajuster les coordonnées pour qu'il apparaisse exactement là où vous le souhaitez et ce déplace ni trop vite, ni trop lentement. 
 
-![apparition du boss](images/6_boss_1.JPG)
+![boss 1](images/6_boss_1.JPG)
 
 ## Déplacement du boss
 
@@ -26,17 +26,17 @@ Pour qu'il puisse réaliser facilement un tel mouvement, nous allons faire 'rebo
 
 Créez les objets **Box_collision_boss_haut** et **Box_collision_boss_bas** et placez-les sur la scène pour qu'ils se trouvent en haut et en bas de la position du Boss.
 
-![apparition du boss](images/6_boss_5.JPG)
+![boss 5](images/6_boss_5.JPG)
 
 Dans le programme, ajoutez les évènements de déplacement du Boss :
 
-![apparition du boss](images/6_boss_2.JPG)
+![2](images/6_boss_2.JPG)
 
 ## Tir du boss
 
 Le boss va tirer des projectiles vers le joueur. Pour cela, nous allons ajouter le [comportement](https://github.com/g404-code-gaming/GDevelop_Cour/blob/main/Comportement.md) **fireBullet** à l'objet Boss. Modifier les paramètres de tir comme vous le souhaitez.
 
-![tirs du boss](images/6_boss_3.JPG)
+![3](images/6_boss_3.JPG)
 
 N'oublie pas de bien diriger le projectile vers le joueur et de faire en sorte qu'un projectile détruit le vaisseau du joueur. 💥
 
