@@ -8,12 +8,14 @@ Comme tout bon space shooter qui se respecte, il nous faut un compteur de score 
 
 Pour cela, nous allons utiliser une variable globale que nous allons nommer "Score". 
 
-![variable globale](images/5_score_1.JPG)
 ![variable globale](images/5_score_2.JPG)
+![variable globale](images/5_score_3.JPG)
 
 Nous l'incrémenterons chaque fois que le vaisseau du joueur détruit un ennemi ou un météore. 🌠
 
-![variable globale](images/5_score_3.JPG)
+Il nous faut aussi placer un nouvel objet de texte sur la scène : **TextScore**.
+
+![variable globale](images/5_score_1.JPG)
 
 Pour que le texte sur la scène affiche correctement la valeur de la variable, il faut créer un nouvel évènement : 
 
