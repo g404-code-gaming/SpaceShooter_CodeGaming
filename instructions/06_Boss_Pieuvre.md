@@ -1,43 +1,56 @@
 # Boss fin de niveau 🐙🎮
 
+Tout Space Shooter qui se respecte possède un ou plusieurs **Boss* : des ennemis plus dangereux que les autres qui vont proposer un défi de taille au joueur. 
+
+Pour terminer le jeu, nous allons ajouter un nouvel objet Boss à notre jeu. 
+
+N'oubliez pas de l'ajouter au groupe **Ennemis** pour qu'il subisse des dégâts et blesse le joueur au contact. 
+
 ## Apparition du boss
 
-Pour faire apparaître le boss, nous allons surveiller la variable totalScore. Si elle dépasse 600, le boss fera son entrée. N'oublie pas de l'agrandir pour qu'il soit plus impressionnant ! 📈
+Le Boss apparait lorsque la valeur de score du joueur atteint une certaine valeur. 
+Après son apparition, il avance quelques secondes, puis entame un déplaçant de combat en alternant une montée et une descente. 
 
-![apparition du boss](images/apparitionBoss.png)
+![apparition du boss](images/6_boss.mp4)
 
-Il apparaît à droite et se déplace lentement vers la gauche. Une fois arrivé à destination, nous allons lui faire faire un mouvement de va-et-vient, de haut en bas, comme ceci :
+Ajoutez le programme pour que le Boss apparaisse : 
+Il vous faudra ajuster les coordonnées pour qu'il apparaisse exactement là où vous le souhaitez et ce déplace ni trop vite, ni trop lentement. 
 
-![mouvement du boss](images/bossMouvement.png)
+![apparition du boss](images/6_boss_1.JPG)
+
+## Déplacement du boss
+
+Comme dit plus haut, le Boss possède un déplacent de haut en bas. 
+
+Pour qu'il puisse réaliser facilement un tel mouvement, nous allons faire 'rebondir' le Boss sur des murs invisibles. 
+
+Créez les objets **Box_collision_boss_haut** et **Box_collision_boss_bas** et placez-les sur la scène pour qu'ils se trouvent en haut et en bas de la position du Boss.
+
+![apparition du boss](images/6_boss_0.JPG)
+
+Dans le programme, ajoutez les évènements de déplacement du Boss :
+
+![apparition du boss](images/6_boss_2.JPG)
 
 ## Tir du boss
 
-Le boss va tirer des projectiles vers le joueur. Pour cela, nous allons ajouter le comportement fireBullet à l'objet boss. Il tirera ses projectiles toutes les 0.6 secondes avec un multi fire de 5 et un firing arc de 35°. 🎯
+Le boss va tirer des projectiles vers le joueur. Pour cela, nous allons ajouter le [comportement](https://github.com/g404-code-gaming/GDevelop_Cour/blob/main/Comportement.md) **fireBullet** à l'objet Boss. Modifier les paramètres de tir comme vous le souhaitez.
 
-![tir du boss](images/bossTir.png)
+![tirs du boss](images/6_boss_3.JPG)
 
 N'oublie pas de bien diriger le projectile vers le joueur et de faire en sorte qu'un projectile détruit le vaisseau du joueur. 💥
 
-## Destruction du boss
+Pour ce faire, vous pouvez ajouter les projectiles à la liste des ennemis (le joueur pourra détruire les projectiles en les attaquants), **ou** créer un tout autre évènement qui blesse le joueur lorsqu'il entre en collision avec les projectiles. 
 
-On va attribuer une variable life au boss, comme pour les autres ennemis. On va lui mettre une valeur de 500 ! Ensuite, on va ajouter une condition qui vérifie si le boss est en collision avec un projectile. Si c'est le cas, on va décrémenter la variable life du boss. Si la variable life est inférieure ou égale à 0, on détruit le boss. 💔
+## Barre de vie
 
-![destruction du boss](images/boss_end_game.png)
+Le Boss ayant beaucoup de point de vie, il est important que le joueur puisse voir la **Barre de vie** du Boss. 
 
-Changeons le comportement des projectiles du joueur pour qu'ils affectent tous les ennemis et le boss. On peut les regrouper dans un groupe de scène, puis appliquer le comportement à ce groupe.
+Ajoutez un objet **Barre de vie** (ou Healthbar) dans votre jeu. Il s'agit concrètement d'une barre rouge.💔
 
-![projectiles](images/projectiles_enemies.png)
+HealthBarFil sera l'objet qui va représenter la vie du boss. On redefnini sa largeur pour qu'elle soit égale à la variable life du boss (avec un multiplicateur pour adapter sa taille à l'écran).
 
-## Barre de vie du boss
-
-On va ajouter une barre de vie au boss. Pour cela, on va ajouter 2 objets à notre scène :
-EnergyBar et HealthBarFil.
-
-![barre de vie](images/barreVie.png)
-
-HealthBarFil sera l'objet qui va représenter la vie du boss. On redefnini sa largeur pour qu'elle soit égale à la variable life du boss (avec un multiplicateur pour compenser la taille de la EnergyBar). N'hesite pas à ajuster le multiplicateur pour que la barre de vie soit bien visible sur toute la longueur de la bar. 📏
-
-![barre de vie](images/barreVie2.png)
+![tirs du boss](images/6_boss_4.JPG)
 
 ## Fin du niveau
 
