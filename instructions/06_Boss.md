@@ -28,6 +28,8 @@ Créez les objets **Box_collision_boss_haut** et **Box_collision_boss_bas** et p
 
 ![boss 5](images/6_boss_5.JPG)
 
+Créez une variable booléenne **Tire** pour le boss.
+
 Dans le programme, ajoutez les évènements de déplacement du Boss :
 
 ![2](images/6_boss_2.JPG)
@@ -35,8 +37,6 @@ Dans le programme, ajoutez les évènements de déplacement du Boss :
 ## Tir du boss
 
 Le boss va tirer des projectiles vers le joueur. Pour cela, nous allons ajouter le [comportement](https://github.com/g404-code-gaming/GDevelop_Cour/blob/main/Comportement.md) **fireBullet** à l'objet Boss. Modifier les paramètres de tir comme vous le souhaitez.
-
-Créez une variable booléenne **Tire** pour le boss.
 
 ![3](images/6_boss_3.JPG)
 
