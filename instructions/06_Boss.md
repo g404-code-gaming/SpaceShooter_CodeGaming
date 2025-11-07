@@ -36,6 +36,8 @@ Dans le programme, ajoutez les évènements de déplacement du Boss :
 
 Le boss va tirer des projectiles vers le joueur. Pour cela, nous allons ajouter le [comportement](https://github.com/g404-code-gaming/GDevelop_Cour/blob/main/Comportement.md) **fireBullet** à l'objet Boss. Modifier les paramètres de tir comme vous le souhaitez.
 
+Créez une variable booléenne **Tire** pour le boss.
+
 ![3](images/6_boss_3.JPG)
 
 N'oublie pas de bien diriger le projectile vers le joueur et de faire en sorte qu'un projectile détruit le vaisseau du joueur. 💥
