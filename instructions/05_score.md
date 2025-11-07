@@ -32,9 +32,7 @@ Pour éviter cela, on remet le score à 0 en cas de mort du personnage :
 
 ## Ajout de son 🎵
 
-Si tu as remarqué, notre jeu est actuellement sans son. Un jeu sans son est un peu triste. 😔 Alors, nous allons ajouter des sons pour rendre notre jeu plus vivant. 🎉
-
-Sur les captures d'écran ci-dessus, tu as pu voir comment j'ai ajouté un son lorsqu'un ennemi est détruit. Je vais te montrer comment j'ai fait. 🎧
+Si tu as remarqué, notre jeu est actuellement sans son. Un jeu sans son est un peu triste. 😔 Alors, il est possible d'ajouter des sons pour rendre notre jeu plus vivant. 🎉
 
 Ajoute une action pour jouer un son à la suite de l'action qui détruit l'objet. Tu peux choisir un son dans la bibliothèque de GDevelop ou ajouter un son que tu as téléchargé sur internet. 🌐
 
@@ -44,7 +42,7 @@ Maintenant, c'est à toi de jouer ! Ajoute des sons pour les autres événements
 
 - Quand le vaisseau du joueur est détruit
 - Quand un météore est détruit
-- Quand le joueur tire
+- Musique de fond
 
 ## La suite ! 🚀
 
