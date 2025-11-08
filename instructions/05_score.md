@@ -49,4 +49,4 @@ Maintenant, c'est à toi de jouer ! Ajoute des sons pour les autres événements
 Ton jeu commence à être intéressant, mais il manque encore quelques fonctionnalités pour le rendre plus captivant. Il faut une fin à ce premier niveau ! 🏁
 Je te propose de rajouter un boss à la fin du niveau. Ce boss sera plus gros et plus résistant que les autres ennemis. Il faudra donc lui tirer dessus de nombreuses fois pour le détruire. 🤖
 
-allez, c'est parti ! [Boss Maman Pieuvre](06_Boss_Pieuvre.md)
+allez, c'est parti ! [Boss Maman Pieuvre](06_Boss.md)
