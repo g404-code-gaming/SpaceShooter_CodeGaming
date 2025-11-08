@@ -7,7 +7,7 @@ On va utiliser des super assets de "Space Shooter by Pixel Boy" pour tous ces ob
 
 1. **Importation des objets** :
   
-Pour importer les objets, suis ce petit cours qui va t'expliquer tout ce dont tu as besoin : --> [Objets]()
+Pour importer les objets, suis ce petit cours qui va t'expliquer tout ce dont tu as besoin : --> [Objets](https://github.com/g404-code-gaming/GDevelop_Cour/blob/main/Objets.md)
 
 Voici les objets que tu dois positionner dans ta scène :
 
