@@ -4,6 +4,8 @@
 
 Nous allons donner la possibilité au joueur de récupérer des power-ups qui vont lui donner des bonus. Nous allons utiliser la variable "powerUp" du vaisseau.
 
+Fait apparaître les Power-Up comme les Météores et les ennemis : avec un chronomètre (voir Chapître précédent)
+
  1. Ajoute une condition qui vérifie si le vaisseau du joueur est en collision avec un power-up. Si c'est le cas, ajoute une action qui supprime le power-up et qui met la variable "powerUp" du vaisseau du joueur à true. Au bout de 10 secondes, ajoute une action qui met la variable "powerUp" du vaisseau du joueur à false.
 
 ![power up](images/4_powerup_1.JPG)
