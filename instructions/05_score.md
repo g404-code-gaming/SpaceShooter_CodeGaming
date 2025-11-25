@@ -9,6 +9,8 @@ Comme tout bon space shooter qui se respecte, il nous faut un compteur de score 
 Pour cela, nous allons utiliser une variable globale que nous allons nommer "Score". 
 
 ![variable globale](images/5_score_2.JPG)
+
+
 ![variable globale](images/5_score_3.JPG)
 
 Nous l'incrémenterons chaque fois que le vaisseau du joueur détruit un ennemi ou un météore. 🌠
