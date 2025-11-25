@@ -13,6 +13,12 @@ Dans le groupe, choisissez les objets que vous voulez rendre 'dangereux' : ceux 
 
 ![groupe ennemi](images/3_groupeennemi2.JPG)
 
+Dans le groupe d'ennemis, créez la variable PV pour que les ennemis puissent être détruits. 
+
+![pv ennemi](images/3_ennemisPV.JPG)
+
+Une fois fait, allez dans les variables de **Chaque ennemis** et définissez les PV que vous souhaitez leurs mettres (1, 5, 10, .... c'est au choix !).
+
 ## Programmation des ennemis 👾
 
 Pour l'instant, nous allons juste dire que si un ennemi a ses points de vie à zéro, il est supprimé.
