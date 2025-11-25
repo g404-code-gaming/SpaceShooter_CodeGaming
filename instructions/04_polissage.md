@@ -22,10 +22,10 @@ Ajoute maintenant un nouveau sous-évènement pour que le vaisseau tire de nouve
 
 ![power up](images/4_powerup_2.JPG)
 
-Les projectiles améliorés doivent être programmés de la même manière que les projectiles normaux (voir chapitre précédent). 
+Les projectiles améliorés doivent être programmés de la même manière que les projectiles normaux (voir chapitre précédent).
 
- 4. Enfin, nous allons conditionner l'apparition des power-ups.
-   Ils apparaissent de la même manière que les météores : reproduire le code des météores, mais appliqué aux Power-Up. 
+ 5. Enfin, nous allons conditionner l'apparition des power-ups.
+   Ils apparaissent de la même manière que les météores : reproduire le code des météores (voir chapitre 3), mais appliqué aux Power-Up. 
 
 Voilà, tu as fini cette partie ! N'hésite pas à tester ton jeu pour voir si tout fonctionne correctement. Si tu as des erreurs, n'hésite pas à comparer ton code avec celui de la solution. Tu peux ajouter un power-up dans la scène pour le prendre immédiatement pendant tes tests et vérifier que tout fonctionne correctement.
 
