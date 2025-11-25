@@ -19,6 +19,12 @@ Dans le groupe d'ennemis, créez la variable PV pour que les ennemis puissent ê
 
 Une fois fait, allez dans les variables de **Chaque ennemis** et définissez les PV que vous souhaitez leurs mettres (1, 5, 10, .... c'est au choix !).
 
+## Création du groupe Projectile 
+
+Dans le jeu, notre personnage va tirer plusieurs types de projectiles. Comme pour les ennemis, nous allons simplifier la programmation en créant un groupe de projectile : 
+
+![pv ennemi](images/3_groupeprojectile.JPG)
+
 ## Programmation des ennemis 👾
 
 Pour l'instant, nous allons juste dire que si un ennemi a ses points de vie à zéro, il est supprimé.
