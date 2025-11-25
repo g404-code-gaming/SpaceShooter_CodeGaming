@@ -12,9 +12,7 @@ Fait apparaître les Power-Up comme les Météores et les ennemis : avec un chro
 
  3. Il va falloir modifier le comportement du vaisseau du joueur pour qu'il tire des projectiles plus puissants quand il a un power-up.
 
-Avant, le programme de tire ressemblait à ça : 
-
-![sans power up](images/2_tir.JPG)
+Retrouve ton évènement de tire des projectiles, c'est une des premières choses que nous avons fait dans le projet.
 
 Modifie-le pour qu'il inclue la condition de la variable 'power-Up' dans un sous-évènement : 
 
